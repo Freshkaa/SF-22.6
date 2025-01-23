@@ -1,0 +1,38 @@
+{% extends 'flatpages/default.html' %}
+
+{% block title %}
+{{ flatpage.title }}
+{% endblock title %}
+
+{% block content %}
+<h1> Таблица Контактов </h1>
+
+   <p style="font-size: 1.5em;">&nbsp;</p>
+<table class="editorDemoTable" style="height: 120px;" width="276">
+<tbody>
+<tr>
+<td style="width: 91.1875px;"><strong>Name</strong></td>
+<td style="width: 109.375px;"><strong>City</strong></td>
+<td style="width: 49.4375px;"><strong>Age</strong></td>
+</tr>
+<tr>
+<td style="width: 91.1875px;">John</td>
+<td style="width: 109.375px;">Chicago</td>
+<td style="width: 49.4375px;">23</td>
+</tr>
+<tr>
+<td style="width: 91.1875px;">Lucy</td>
+<td style="width: 109.375px;">Wisconsin</td>
+<td style="width: 49.4375px;">19</td>
+</tr>
+<tr>
+<td style="width: 91.1875px;">Amanda</td>
+<td style="width: 109.375px;">Madison</td>
+<td style="width: 49.4375px;">22</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+{{ flatpage.content }}
+{% endblock content %}
+</html>
